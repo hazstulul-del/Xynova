@@ -1,0 +1,22 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.xshine.xynova"
+    compileSdk = flutter.compileSdkVersion
+
+    defaultConfig {
+        applicationId = "com.xshine.xynova"
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = 200
+        versionName = "2.0.0"
+    }
+}
+
+flutter {
+    source = "../.."
+}

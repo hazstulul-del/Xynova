@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>Xynova</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Xynova membutuhkan kamera untuk menganalisis foto yang Anda pilih.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Xynova membutuhkan mikrofon untuk input suara.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Xynova membutuhkan pengenalan suara untuk mengubah suara menjadi teks.</string>
+</dict>
+</plist>
