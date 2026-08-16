@@ -26,7 +26,7 @@ class XynovaLogo extends StatelessWidget {
             'Xynova',
             style: TextStyle(
               fontSize: size * .62,
-              fontWeight: FontWeight.w650,
+              fontWeight: FontWeight.w600,
               letterSpacing: -0.4,
               color: textColor,
             ),

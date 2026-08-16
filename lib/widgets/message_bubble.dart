@@ -82,7 +82,7 @@ class MessageBubble extends StatelessWidget {
                           p: TextStyle(color: fg, fontSize: 16, height: 1.6),
                           h1: TextStyle(color: fg, fontSize: 26, fontWeight: FontWeight.w700),
                           h2: TextStyle(color: fg, fontSize: 22, fontWeight: FontWeight.w700),
-                          h3: TextStyle(color: fg, fontSize: 19, fontWeight: FontWeight.w650),
+                          h3: TextStyle(color: fg, fontSize: 19, fontWeight: FontWeight.w600),
                           code: TextStyle(
                             color: fg,
                             fontFamily: 'monospace',

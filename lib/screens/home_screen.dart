@@ -358,7 +358,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               const Text('Settings', style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700)),
               const SizedBox(height: 18),
-              const Text('Language', style: TextStyle(fontWeight: FontWeight.w650)),
+              const Text('Language', style: TextStyle(fontWeight: FontWeight.w600)),
               DropdownButton<String>(
                 isExpanded: true,
                 value: _language,
@@ -383,7 +383,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
               ),
               const SizedBox(height: 16),
-              const Text('Providers', style: TextStyle(fontWeight: FontWeight.w650)),
+              const Text('Providers', style: TextStyle(fontWeight: FontWeight.w600)),
               const SizedBox(height: 8),
               _providerTile('xKiro'),
               _providerTile('Groq'),
@@ -391,7 +391,7 @@ class _HomeScreenState extends State<HomeScreen> {
               _providerTile('Image'),
               _providerTile('TTS'),
               const Divider(height: 30),
-              const Text('About', style: TextStyle(fontWeight: FontWeight.w650)),
+              const Text('About', style: TextStyle(fontWeight: FontWeight.w600)),
               const SizedBox(height: 8),
               const Text('Xynova\nYour intelligent AI.\nCreated by X Shine\n© 2026 X Shine\nVersion 2.0'),
             ],
